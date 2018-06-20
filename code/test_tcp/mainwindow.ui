@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>808</width>
+    <height>725</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Client</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="ConnecterBt">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>85</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>connecter</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="QuitterBt">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>10</y>
+      <width>85</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>quitter</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="LogBox">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>590</y>
+      <width>791</width>
+      <height>61</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="afficher_image">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>771</width>
+      <height>521</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>808</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
